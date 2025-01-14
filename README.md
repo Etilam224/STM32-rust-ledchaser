@@ -87,7 +87,7 @@ See [this tuto from Microsoft](https://learn.microsoft.com/en-us/windows/wsl/con
 
 ## Licence
 
-This repository is licenced under the [BSD 2-Clause "Simplified" License](LICENCE)
+This repository is licenced under the [BSD 2-Clause "Simplified" License](LICENSE)
 
 ## TODO
 
