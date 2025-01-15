@@ -26,19 +26,11 @@ rustup target add thumbv7em-none-eabihf
     git clone https://github.com/Etilam224/STM32-rust-ledchaser.git
     ```
 
-2. [Embassy](https://github.com/embassy-rs/embassy) dependency needs to be downloaded separately as we need to specify the path.
-
-    ``` bash
-     git clone https://github.com/embassy-rs/embassy.git
-    ```
-
-    * This will locate your Embassy folder in **/..**
-    * If you clone the Embassy repository elsewhere, specify your own path into the [Cargo.toml](Cargo.toml) file.
-
-* Use cargo to download other dependencies and build the project.
+2. Use cargo to download other dependencies and build the project.
 
     ``` bash
     cd STM32-rust-ledchaser
+    cargo update
     cargo build
     ```
 
@@ -92,5 +84,4 @@ This repository is licenced under the [BSD 2-Clause "Simplified" License](LICENS
 ## TODO
 
 * [ ] Achieve and doc an installation from scratch to see if there is no major issue;
-* [ ] Add an Embassy redirection into this repo or fix the path/features bug;
 * [ ] Insert a clear wiring diagram.
